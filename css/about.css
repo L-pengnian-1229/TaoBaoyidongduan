@@ -1,0 +1,478 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 10rem;
+    margin: auto;
+}
+/*header开始*/
+header .header{
+    display: flex;
+    width: 10rem;
+    height: 1.68rem;
+    overflow: hidden;
+    background-color: rgb(255,223,0);
+    z-index: 1000;
+    flex: 0 0 auto;
+    background-image: linear-gradient(90deg, rgb(255, 223, 0) 0%, rgb(255, 203, 21) 100%);
+}
+header .header .header-left{
+    display: flex;
+    /*transform: translateZ(0px);*/
+    width: 8.6rem;
+    height: 2.213rem;
+    z-index: 1001;
+}
+header .header .header-left .swiper-wrapper{
+    transform: translate3d(0,0,0)!important;
+}
+/*header .header .header-left .swiper-wrapper .swiper-slide:nth-of-type(1){
+    border-bottom: 2px solid orange;
+}*/
+header .header .header-left .swiper-wrapper .swiper-slide{
+    margin-right: 0!important;
+    width: 1.733rem!important;
+    height: 1.68rem;
+    text-align: center;
+    line-height: 1.68rem;
+}
+header .header .header-left .swiper-wrapper .swiper-slide a{
+    position: absolute;
+    font-size: 0.6rem;
+    top: -0.4rem;
+    left: 0.6rem;
+}
+header .header .header-left .swiper-wrapper .swiper-slide span{
+    position: absolute;
+    color: rgb(51,51,51);
+    font-size: 13px;
+    width: 1.733rem;
+    left: 0rem;
+    top: 0.3rem;
+}
+[data-dpr="2"] header .header .header-left .swiper-wrapper .swiper-slide span{
+    font-size: 26px;
+}
+[data-dpr="3"] header .header .header-left .swiper-wrapper .swiper-slide span{
+    font-size: 39px;
+}
+header .header .header-right{
+    position: relative;
+    width: 1.68rem!important;
+    height: 1.68rem;
+    text-align: center;
+    line-height: 1.68rem;
+    align-items: center;
+    cursor: pointer;
+}
+header .header .header-right div{
+    width: 0.173rem;
+    height: 1.344rem;
+    position: absolute;
+    left: -0.12rem;
+    top: 0.168rem;
+}
+header .header .header-right div img{
+    display: block;
+    width: 0.173rem;
+    height: 1.173rem;
+    margin-top: 0.2665rem;
+}
+header .header .header-right img{
+    display: block;
+    width: 0.533rem;
+    height: 0.533rem;
+    flex: 0 0 auto;
+    margin: auto;
+    margin-top: 0.84rem;
+    transform: translateY(-0.2665rem);
+}
+/*header结束*/
+/*banner开始*/
+.banner{
+    width: 10rem;
+    background-color: rgb(244,244,244);
+    padding-left: 0.32rem;
+    padding-right: 0.32rem;
+    position: relative;
+}
+.banner .div1{
+    position: relative;
+    height: 1.226rem;
+    overflow: hidden;
+    text-align: center;
+    line-height: 1.226rem;
+}
+.banner .div1 div:nth-of-type(1){
+    position: relative;
+    display: flex;
+    height: 0.013rem;
+    width: 1.066rem;
+    overflow: hidden;
+    background-color: #000;
+    top: 0.613rem;
+    left: 2.5rem;
+}
+.banner .div1 span{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    color: rgb(68,68,68);
+    font-size: 15px;
+    line-height: 1.226rem;
+}
+[data-dpr="2"] .banner .div1 span{
+    font-size: 30px;
+}
+[data-dpr="3"] .banner .div1 span{
+    font-size: 45px;
+}
+.banner .div1 div:nth-of-type(2){
+    position: relative;
+    display: flex;
+    height: 0.013rem;
+    width: 1.066rem;
+    overflow: hidden;
+    background-color: #000;
+    bottom: 0.613rem;
+    right: -5.8rem;
+}
+/*div2开始*/
+.banner .div2{
+   /* width: 10rem;*/
+    height: 3.573rem;
+    position: relative;
+    display: flex;
+    margin-bottom: 0.213rem;
+    justify-content: space-between;
+}
+.banner .div2 a{
+    width: 2.933rem;
+    height: 3.573rem;
+    position: relative;
+    background-color: rgb(255,255,255);
+    text-decoration: none;
+    text-align: center;
+    /*margin-right: 0.28rem*/;
+}
+.banner .div2 a div{
+    position: relative;
+    display: flex;
+    width: 2.666rem;
+    height: 2.56rem;
+    margin: 0.133rem 0.133rem;
+}
+.banner .div2 a div img{
+    display: block;
+    border: none;
+    width: 2.666rem;
+    height: 2.666rem;
+}
+.banner .div2 a span{
+    position: relative;
+    display: block;
+    text-align: center;
+    color: rgb(51,51,51);
+    font-size: 26px;
+    width: 2.963rem;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    max-height: 0.88rem;
+}
+[data-dpe="1"] .banner .div2 a span{
+    font-size: 13px;
+}
+[data-dpe="3"] .banner .div2 a span{
+    font-size: 39px;
+}
+/*div2结束*/
+/*div3开始*/
+.banner .div3{
+    /* width: 10rem;*/
+    height: 3.573rem;
+    position: relative;
+    display: flex;
+    margin-bottom: 0.213rem;
+    justify-content: space-between;
+}
+.banner .div3 a{
+    width: 2.933rem;
+    height: 3.573rem;
+    position: relative;
+    background-color: rgb(255,255,255);
+    text-decoration: none;
+    text-align: center;
+    /*margin-right: 0.28rem;*/
+}
+.banner .div3 a div{
+    position: relative;
+    display: flex;
+    width: 2.666rem;
+    height: 2.56rem;
+    margin: 0.133rem 0.133rem;
+}
+.banner .div3 a div img{
+    display: block;
+    border: none;
+    width: 2.666rem;
+    height: 2.666rem;
+}
+.banner .div3 a span{
+    position: relative;
+    display: block;
+    text-align: center;
+    color: rgb(51,51,51);
+    font-size: 26px;
+    width: 2.963rem;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    max-height: 0.88rem;
+}
+[data-dpe="1"] .banner .div3 a span{
+    font-size: 13px;
+}
+[data-dpe="3"] .banner .div3 a span{
+    font-size: 39px;
+}
+/*div3结束*/
+/*div4开始*/
+.banner .div4{
+    /* width: 10rem;*/
+    height: 3.573rem;
+    position: relative;
+    display: flex;
+    margin-bottom: 0.213rem;
+    justify-content: space-between;
+}
+.banner .div4 a{
+    width: 2.933rem;
+    height: 3.573rem;
+    position: relative;
+    background-color: rgb(255,255,255);
+    text-decoration: none;
+    text-align: center;
+    /*margin-right: 0.28rem;*/
+}
+.banner .div4 a div{
+    position: relative;
+    display: flex;
+    width: 2.666rem;
+    height: 2.56rem;
+    margin: 0.133rem 0.133rem;
+}
+.banner .div4 a div img{
+    display: block;
+    border: none;
+    width: 2.666rem;
+    height: 2.666rem;
+}
+.banner .div4 a span{
+    position: relative;
+    display: block;
+    text-align: center;
+    color: rgb(51,51,51);
+    font-size: 26px;
+    width: 2.963rem;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    max-height: 0.88rem;
+}
+[data-dpe="1"] .banner .div4 a span{
+    font-size: 13px;
+}
+[data-dpe="3"] .banner .div4 a span{
+    font-size: 39px;
+}
+/*div4结束*/
+/*div5开始*/
+.banner .div5{
+    /* width: 10rem;*/
+    height: 3.573rem;
+    position: relative;
+    display: flex;
+    margin-bottom: 0.213rem;
+    justify-content: space-between;
+}
+.banner .div5 a{
+    width: 2.933rem;
+    height: 3.573rem;
+    position: relative;
+    background-color: rgb(255,255,255);
+    text-decoration: none;
+    text-align: center;
+    /*margin-right: 0.28rem;*/
+}
+.banner .div5 a div{
+    position: relative;
+    display: flex;
+    width: 2.666rem;
+    height: 2.56rem;
+    margin: 0.133rem 0.133rem;
+}
+.banner .div5 a div img{
+    display: block;
+    border: none;
+    width: 2.666rem;
+    height: 2.666rem;
+}
+.banner .div5 a span{
+    position: relative;
+    display: block;
+    text-align: center;
+    color: rgb(51,51,51);
+    font-size: 26px;
+    width: 2.963rem;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    max-height: 0.88rem;
+}
+[data-dpe="1"] .banner .div5 a span{
+    font-size: 13px;
+}
+[data-dpe="3"] .banner .div5 a span{
+    font-size: 39px;
+}
+/*div5结束*/
+/*div5开始*/
+.banner .div6{
+    /* width: 10rem;*/
+    height: 3.573rem;
+    position: relative;
+    display: flex;
+    margin-bottom: 0.213rem;
+    justify-content: space-between;
+}
+.banner .div6 a{
+    width: 2.933rem;
+    height: 3.573rem;
+    position: relative;
+    background-color: rgb(255,255,255);
+    text-decoration: none;
+    text-align: center;
+    /*margin-right: 0.28rem;*/
+}
+.banner .div6 a div{
+    position: relative;
+    display: flex;
+    width: 2.666rem;
+    height: 2.56rem;
+    margin: 0.133rem 0.133rem;
+}
+.banner .div6 a div img{
+    display: block;
+    border: none;
+    width: 2.666rem;
+    height: 2.666rem;
+}
+.banner .div6 a span{
+    position: relative;
+    display: block;
+    text-align: center;
+    color: rgb(51,51,51);
+    font-size: 26px;
+    width: 2.963rem;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    max-height: 0.88rem;
+}
+[data-dpe="1"] .banner .div6 a span{
+    font-size: 13px;
+}
+[data-dpe="3"] .banner .div6 a span{
+    font-size: 39px;
+}
+/*div6结束*/
+/*点击显示部分开始*/
+.nav-list{
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(255,223,0);
+}
+.nav-list .nav-list-top{
+    position: relative;
+    display: flex;background-color: rgb(255,223,0);
+    height: 1.68rem;
+    line-height: 1.68rem;
+}
+.nav-list .nav-list-top span{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    color: rgb(51,51,51);
+    font-size: 28px;
+    margin-left: 0.133rem;
+    padding-right: 0.133rem;
+    padding-left: 0.133rem;
+}
+[data-dpr="1"] .nav-list .nav-list-top span{
+    font-size: 14px;
+}
+[data-dpr="3"] .nav-list .nav-list-top span{
+    font-size: 42px;
+}
+.nav-list .nav-list-top div{
+    position: relative;
+    display: flex;
+    width: 1.68rem;
+    height: 1.4rem;
+    margin: auto;
+    right: -3.2rem;
+}
+.nav-list .nav-list-top div img:nth-of-type(1){
+    display: block;
+    height: 1.173rem;
+    width: 0.173rem;
+    margin: auto;
+    margin-right: 0.09rem;
+}
+.nav-list .nav-list-top div img:nth-of-type(2){
+    display: block;
+    width: 0.533rem;
+    height: 0.533rem;
+    margin: auto;
+}
+.nav-list .nav-list-bottom{
+    position: relative;
+    display: flex;
+    padding-left: 0.133rem;
+    padding-right: 0.133rem;
+}
+.nav-list .nav-list-bottom .nav-list-bottom1{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list .nav-list-bottom .nav-list-bottom1 .left{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 3.244rem;
+}
+.nav-list .nav-list-bottom .nav-list-bottom1 .left div{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 1.733rem;
+    height: 1.68rem;
+}
+.nav-list .nav-list-bottom .nav-list-bottom1 .left div a{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0.8rem;
+    margin-top: 0.16rem;
+    margin-bottom: 0.133rem;
+}
+.nav-list .nav-list-bottom .nav-list-bottom1 .left div a i{
+    position: relative;
+    display: flex;
+    width: 0.8rem;
+    height: 0.8rem;
+}
+/*点击显示部分结束*/
